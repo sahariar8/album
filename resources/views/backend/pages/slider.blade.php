@@ -1,0 +1,28 @@
+@extends('backend.master.bmastering')
+@section('special')
+   <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <h1 class="text-primary py-5 text-center" style="font-family: roboto">Insert Slider Picture & Details</h1>
+                <h2 class="text-success text-center">{{Session::get('msg')}}</h2>
+                <form action="{{route('slider.insert')}}" method="post" enctype="multipart/form-data" class="border p-5 rounded">
+                    @csrf
+                    <div class="form-group my-2">
+                      <label for="title" class="my-2"><b>Image Title :</b></label>
+                      <input type="text" class="form-control" name="title">
+                    </div>
+                    <div class="form-group my-2">
+                      <label for="desc" class="my-2"><b>Short Description</b></label>
+                      <input type="text" class="form-control" name="desc" maxlength="250">
+                    </div>
+                    <div class="form-group my-2">
+                      <label for="date" class="my-2"><b>Image :</b></label>
+                      <input type="file" class="form-control" name="simg">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>
+
+            </div>
+        </div>
+   </div>
+@endsection
