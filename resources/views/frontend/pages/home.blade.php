@@ -115,9 +115,6 @@
                 <div class="single-product">
                     <div class="product-f-image">
                         <img src="{{asset('/')}}{{$p->img}}" alt="" style="height: 300px; width:260px">
-                        <div class="product-hover">
-                            <a href="" class="view-details-link"><i class="fa fa-link"></i> See details</a>
-                        </div>
                     </div>
                     
                     <h2 class="text-primary">{{$p->title}}</h2>

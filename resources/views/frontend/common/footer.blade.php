@@ -1,13 +1,13 @@
 <div class="footer-bottom-area" style="height: 60px">
     <div class="container">
         <div class="row">
-            <div class="col-md-8">
+            <div class="col-md-8 col-sm-12">
                 <div class="copyright">
                     <p style="margin-top:24px">&copy; 2023 Sahariar. All Rights Reserved. <a href="">sahariaralam8@gmail.com</a></p>
                 </div>
             </div>
             
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-12">
                 <div class="footer-card-icon" style="margin-top:10px">
                    <a href=""> <i class="fa-brands fa-square-facebook fa-bounce" style="color: #f1ecec;"></i></a>
                    <a href=""> <i class="fa-brands fa-square-twitter fa-beat-fade" style="color: #e8ecf3;"></i></a>

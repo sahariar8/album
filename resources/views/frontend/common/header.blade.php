@@ -39,9 +39,10 @@
   <body>
    
     <div class="header-area">
-        <div class="container">
+        <div class="container container-sm">
             <div class="row">
-                <div class="col-md-11">
+    
+                  <div class="col-md-11 col-sm-12">
                     <div class="user-menu">
                         <ul>
                             <li><a href="{{route('home')}}"><i class="fa-solid fa-house"></i> Home</a></li>
@@ -50,11 +51,12 @@
                             <li><a href="{{route('login')}}"><i class="fas fa-sign-in-alt"></i> Login</a></li>
                         </ul>
                     </div>
-                </div>
-                <div class="col-md-1">
+                  </div>
+                <div class="col-md-1 col-sm-12">
                    <ul class="list-unstyled">
                     <li style="margin-top: 9px;"><a href="{{route('dashboard')}}"><i class="fa-solid fa-user-secret"></i> Admin</a></li>
                    </ul>
+                </div>
                 </div>
             </div>
         </div>
