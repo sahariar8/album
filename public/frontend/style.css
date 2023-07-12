@@ -186,8 +186,8 @@ z-index: 999;}
 	transition: all 0.45s ease;
 }
 .block-slider img{
-	width: 100%;
-	height: auto;
+	width: 60%;
+	height: 400 px;
 }
 .block-slider .bx-prev{
 	left: 0px;
@@ -524,6 +524,11 @@ z-index: 999;}
 }
 .single-wid-product h2 a {
     color: #222;
+}
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: #17a78b;
 }
 .single-wid-product h2 a:hover, .single-product h2 a:hover {
     color: #5a88ca;

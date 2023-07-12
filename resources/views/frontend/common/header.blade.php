@@ -44,10 +44,9 @@
                 <div class="col-md-11">
                     <div class="user-menu">
                         <ul>
-                            <li><a href="#"><i class="fa-solid fa-house"></i> Home</a></li>
-                            <li><a href="#"><i class="fa fa-heart"></i> Album</a></li>
+                            <li><a href="{{route('home')}}"><i class="fa-solid fa-house"></i> Home</a></li>
+                            <li><a href="{{route('album')}}"><i class="fa fa-heart"></i> Album</a></li>
                             <li><a href="cart.html"><i class="fa-solid fa-address-book"></i> Contact</a></li>
-                            <li><a href="{{route('register')}}"><i class="fa fa-user-edit"></i> Register</a></li>
                             <li><a href="{{route('login')}}"><i class="fas fa-sign-in-alt"></i> Login</a></li>
                         </ul>
                     </div>

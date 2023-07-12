@@ -5,6 +5,7 @@ use App\Http\Controllers\backend\OccasionController;
 use App\Http\Controllers\backend\RegularController;
 use App\Http\Controllers\backend\SliderController;
 use App\Http\Controllers\backend\TourController;
+use App\Http\Controllers\frontend\DetailsController;
 use App\Http\Controllers\frontend\HomeController;
 use Illuminate\Support\Facades\Route;
 
@@ -21,9 +22,15 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/',[HomeController::class,'index'])->name('home');
 Route::get('/special',[HomeController::class,'special'])->name('fspecial');
-Route::get('/occasion',[HomeController::class,'occasion'])->name('occasion');
-Route::get('/regular',[HomeController::class,'regular'])->name('regular');
-Route::get('/tour',[HomeController::class,'tour'])->name('tour');
+Route::get('/occasion/image',[HomeController::class,'occasion'])->name('foccasion');
+Route::get('/regular/image',[HomeController::class,'regular'])->name('fregular');
+Route::get('/tour/image',[HomeController::class,'tour'])->name('ftour');
+Route::get('/album',[HomeController::class,'album'])->name('album');
+Route::get('/details/{id}',[DetailsController::class,'details'])->name('details');
+Route::get('/details/occasion/{id}',[DetailsController::class,'odetails'])->name('odetails');
+Route::get('/details/regular/{id}',[DetailsController::class,'rdetails'])->name('rdetails');
+Route::get('/details/tour/{id}',[DetailsController::class,'tdetails'])->name('tdetails');
+
 
 
 Route::middleware([

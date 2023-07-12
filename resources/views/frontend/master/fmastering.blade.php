@@ -3,5 +3,6 @@
     @yield('slider')
     @yield('promo')
     @yield('brands')
-    @yield('widgets')
+    @yield('images')
+    @yield('details')
 @include('frontend.common.footer')
