@@ -92,7 +92,7 @@
                                     </a>
                                 </nav>
                             </div>
-                            <div class="sb-sidenav-menu-heading">Addons</div>
+                            <div class="sb-sidenav-menu-heading"></div>
                             
                         </div>
                     </div>

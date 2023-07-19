@@ -3,7 +3,7 @@
 <div class="containre">
     <div class="row justify-content-center">
         <div class="col-md-8">
-            <h1 class="text-primary text-center py-5">Show Regular Image</h1>
+            <h1 class="text-primary text-center py-5" style="font-family: roboto">Show All Tour Picture & Details</h1>
             <h2 class="text-center text-danger">{{Session::get('msg')}}</h2>
             <table class="table table-bordered py-5">
                 <tr>

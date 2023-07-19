@@ -40,7 +40,7 @@ class TourController extends Controller
             unlink($tour->timg);
         }
         $tour->delete();
-        return back()->with('msg','tour Deleted Successfully');
+        return back()->with('msg','Tour Picture Deleted Successfully');
      }
      public function edit($id){
         $tour = Tour::find($id);
