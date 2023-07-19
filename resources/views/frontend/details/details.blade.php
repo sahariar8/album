@@ -42,7 +42,9 @@
                                   
                                     <div class="tab-content">
                                         <div role="tabpanel" class="tab-pane fade in active" id="home">
+                                            
                                             <h1 class="text-primary">{{$picture->title}}</h1>  
+                                            <p style="font-size: 12px; font-weight:bold; color:rgba(112, 104, 104, 0.726); margin-top:-12px">{{$picture->date}}</p>
                                             <p>{{$picture->desc}}</p>
                                         </div>
                                         <div role="tabpanel" class="tab-pane fade" id="profile">

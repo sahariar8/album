@@ -4,16 +4,17 @@
     <!-- Slider -->
     <div class="block-slider block-slider4">
     
-        <ul class="" id="bxslider-home4">
+        <ul id="bxslider-home4">
             @foreach ($slider as $s)
-            <div class="row d-flex">
-                <div class="col-md-8">
+            <div class="row d-flex justify-content-between">
+                <div class="col-md-5">
                     <li>
-                        <img src="{{asset('/')}}{{$s->simg}}" alt="Slide" style="width: 100%; height:400px; padding:35px">
+                        <img src="{{asset('/')}}{{$s->simg}}" alt="Slide" style="width: 100%; height:400px; margin-left:135px; border-radius:5%">
                 </div>
+            
                 <div class="col-md-4 ">
-                    <div class="caption-group text-light" style="margin-top: 100px">
-                        <h2 class="caption title">
+                    <div class="caption-group " style="margin-top: 100px;">
+                        <h2 class="caption title text-primary">
                            {{$s->title}}
                         </h2>
                         <h5 class="caption subtitle">{{$s->desc}}</h5>

@@ -5,13 +5,20 @@ namespace App\Http\Controllers\backend;
 use App\Http\Controllers\Controller;
 use App\Models\Picture;
 use Illuminate\Http\Request;
+use App\Models\Occasion;
+use App\Models\Regular;
+use App\Models\Tour;
 
 
 class DashboardController extends Controller
 {
    public function index(){
+      $picture = Picture::count();
+      $occasion = Occasion::count();
+      $regular = Regular::count();
+      $tour = Tour::count();
 
-      return view('backend/pages/dashboard');
+      return view('backend/pages/dashboard',compact('picture', 'occasion', 'regular', 'tour'));
 
    }
    public function special(){
