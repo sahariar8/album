@@ -75,7 +75,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="latest-product">
-                    <h2 class="section-title">Latest Products</h2>
+                    <h2 class="section-title">Latest Picture</h2>
                     <div class="product-carousel">
                        @foreach ($picture as $p)
 
