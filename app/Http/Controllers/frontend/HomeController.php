@@ -4,7 +4,7 @@ namespace App\Http\Controllers\frontend;
 
 use App\Http\Controllers\Controller;
 use App\Models\Slider;
-use App\Models\picture;
+use App\Models\Picture;
 use App\Models\Regular;
 use App\Models\Occasion;
 use App\Models\Tour;
